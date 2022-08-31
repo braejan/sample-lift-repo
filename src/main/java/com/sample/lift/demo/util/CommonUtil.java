@@ -21,4 +21,17 @@ public class CommonUtil {
             new RuntimeException();
         }
     }
+
+
+    public static void OpenFolder() {
+        File folder;
+        try {
+            folder = new File("C:\\demo\\demofile.txt");
+        } catch (Exception e) {
+            throw  e;
+        }
+        if (folder == null) {
+            new RuntimeException();
+        }
+    }
 }
