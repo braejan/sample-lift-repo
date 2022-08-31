@@ -10,7 +10,7 @@ import java.util.Set;
 public class CommonUtil {
 
 
-    public static void OpenFile() {
+    public static void openFile() {
         File file;
         try {
              file = new File("C:\\demo\\demofile.txt");
@@ -19,11 +19,14 @@ public class CommonUtil {
         }
         if (file == null) {
             new RuntimeException();
+        } else {
+            openFolder();
+            new RuntimeException();
         }
     }
 
 
-    public static void OpenFolder() {
+    public static void openFolder() {
         File folder;
         try {
             folder = new File("C:\\demo\\demofile.txt");
