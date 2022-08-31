@@ -21,7 +21,7 @@ public class CommonUtil {
             new RuntimeException();
         } else {
             openFolder();
-            throw new RuntimeException();
+            new RuntimeException();
         }
     }
 
