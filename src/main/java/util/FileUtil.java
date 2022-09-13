@@ -12,6 +12,17 @@ public class FileUtil {
         if (file != null && file.exists()){
             return "File: " + file.getName();
         } else {
+            return "Error IO File";
+        }
+    }
+    public static String openFolder(String path){
+        if (path == "") {
+            new RuntimeException();
+        }
+        File file = new File(path);
+        if (file != null && file.exists()){
+            return "File: " + file.getName();
+        } else {
             return "Error IO Folder";
         }
     }
