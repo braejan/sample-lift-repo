@@ -21,4 +21,12 @@ public class CommonUtil {
         }
         return file;
     }
+
+    public static File openFolder(String path){
+        File file = openFile(path);
+        if (file != null && !file.isDirectory()){
+            new RuntimeException(path + " not is a directory.");
+        }
+        return file;
+    }
 }
