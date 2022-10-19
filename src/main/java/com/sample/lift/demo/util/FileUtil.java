@@ -5,8 +5,8 @@ import org.slf4j.LoggerFactory;
 
 import java.io.File;
 
-public class CommonUtil {
-    static Logger logger = (Logger) LoggerFactory.getLogger(CommonUtil.class);
+public class FileUtil {
+    static Logger logger = (Logger) LoggerFactory.getLogger(FileUtil.class);
 
     public static File openFile(String path) {
         File file = null;
