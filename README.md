@@ -1,5 +1,4 @@
 # sample-lift-repo
 Sample repository for lift testing
 
-
-Lines added to create a new PR
+Modify readme to create a new pull request for Demos and Wins.
